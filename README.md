@@ -1,13 +1,13 @@
-### Date created
+### 14/06/2020
 Include the date you created this project and README file.
 
-### Project Title
+### Git Course Bikeshare
 Replace the Project Title
 
-### Description
+### Bikeshare project, create python code that use user's input to display info on bikeshare behaviour in major cities
 Describe what your project is about and what it does
 
-### Files used
+### washington.csv chicago.csv new_york_city.csv bikeshare.py
 Include the files used
 
 ### Credits
