@@ -157,6 +157,7 @@ def user_stats(df):
     print('-'*40)
 
 def raw_data (df):
+    """ Ask for user's input to display 5 rows of raw data"""
     view_raw = input('\nWould you like to view individual trip data? Enter yes or no.\n')
     while True:
         if view_raw.lower() != 'yes':
@@ -178,6 +179,7 @@ def raw_data (df):
                     
      
 def main():
+    """Call all functions"""
     while True:
         city, month, day = get_filters()
         df = load_data(city, month, day)
