@@ -159,7 +159,9 @@ def user_stats(df):
 def raw_data (df):
     view_raw = input('\nWould you like to view individual trip data? Enter yes or no.\n')
     while True:
-        if view_raw.lower() != 'yes':
+        if view_raw.lower() not in ['yes','no']:
+             view_raw = input('\nWould you like to view individual trip data? Enter yes or no.\n')
+        elif view_raw.lower() == 'no':
             break
         else:
             i = 0
